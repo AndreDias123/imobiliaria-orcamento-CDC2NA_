@@ -1,6 +1,5 @@
-# 🧾 Orçamento Imobiliário — Versão Excel (Formatada)
-
-Aplicação em **Python** (arquivo único) que calcula o aluguel conforme regras de negócio e **gera um Excel (.xlsx) formatado**, incluindo **Corretor** e **Cliente** no topo do relatório.
+# 🧾 Orçamento Imobiliário
+Aplicação em **Python** (arquivo único) que calcula o aluguel conforme regras de negócio e **gera um arquivo formatado**, incluindo **Corretor** e **Cliente** no topo do relatório.
 
 ---
 
@@ -20,7 +19,7 @@ Aplicação em **Python** (arquivo único) que calcula o aluguel conforme regras
 ---
 
 ## 📁 Arquivo principal
-`orcamento_excel_corretor_cliente.py`
+`orcamento_corretor_cliente.py`
 
 > Não há dependência de outros arquivos. É um script **autônomo**.
 
@@ -79,6 +78,6 @@ abrir_excel()
 ---
 
 ## 📝 Observações
-- O arquivo Excel é salvo no mesmo diretório do script. O nome padrão sugerido é `parcelas_orcamento.xlsx`.
-- Se o Excel não abrir automaticamente, o arquivo estará salvo e pode ser aberto manualmente.
+- O arquivo é salvo no mesmo diretório do script. O nome padrão sugerido é `parcelas_orcamento.xlsx`.
+- Se o arquivo não abrir automaticamente, o arquivo estará salvo e pode ser aberto manualmente.
 - Caso use macOS/Linux, é usado o aplicativo padrão de planilhas do sistema.
